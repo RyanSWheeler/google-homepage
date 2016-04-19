@@ -1,0 +1,113 @@
+body{
+font-family: arial,sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-size:13px;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.navbar{
+	right:25px;
+	top:15px;
+	position:absolute;
+	padding-left:10px;
+	padding-right:10px;
+	word-spacing: 1.5em;
+}
+
+#app{
+	width:25px;
+	height:25px;
+	display:inline;
+	
+}
+
+
+#sign_in{
+	background-color: #4387fd;
+	color:white;
+	padding:8px 11px 8px 11px;
+	border-radius:3px;
+	word-spacing: normal;
+}
+
+#logo{
+	width:272px;
+	height:92px;
+	padding-top:190px;
+	margin:auto;
+
+}
+
+#si{
+	width:566px;
+	height:26px;
+	padding: 5px 5px 5px 5px;
+	margin:auto;
+	margin-top: 30px;
+	display:block;
+}
+
+.buttons{
+	display: block;
+    text-align: center;
+	margin-top:30px;
+	height:36px;
+	line-height:27px;
+}
+
+input[type=submit]{
+	border-radius:4px;
+	padding:12px 14px 12px 14px;
+	font-family:arial, sans-serif;
+	font-size: 13px;
+	color:#757575;
+	background-color: #f2f2f2;
+	border: none;
+	font-weight: bold;
+}
+
+#sb{
+	margin-right: 3px;
+}
+
+#lucky{
+	margin-left: 3px;
+}
+
+#sb, #lucky{
+	display: inline;
+}
+
+.footer{
+	bottom:0px;
+	position:absolute;
+	height:35px;
+	background-color:#f2f2f2;
+	border-top:1px solid #e4e4e4;
+	line-height:40px;
+	width:100%;
+	font-size:10pt;
+	display:inline;
+}
+
+.footl{
+	float:left;
+	padding-left:30px;
+	word-spacing:1.75em;
+}
+
+.footr{
+	float:right;
+	padding-right:30px;
+	word-spacing:1.75em;
+}
+
+.footr a, .footl a{
+	color: #666;
+}
